@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BC2A0A1DB212E400C62A2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC2A091DB212E400C62A2B /* main.m */; };
+		D0BC2A0D1DB212E400C62A2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC2A0C1DB212E400C62A2B /* AppDelegate.m */; };
+		D0BC2A101DB212E400C62A2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC2A0F1DB212E400C62A2B /* ViewController.m */; };
+		D0BC2A131DB212E400C62A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BC2A111DB212E400C62A2B /* Main.storyboard */; };
+		D0BC2A151DB212E400C62A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BC2A141DB212E400C62A2B /* Assets.xcassets */; };
+		D0BC2A181DB212E400C62A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BC2A161DB212E400C62A2B /* LaunchScreen.storyboard */; };
+		D0BC2A231DB212E400C62A2B /* WZBCountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC2A221DB212E400C62A2B /* WZBCountDownButtonTests.m */; };
+		D0BC2A2E1DB212E400C62A2B /* WZBCountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC2A2D1DB212E400C62A2B /* WZBCountDownButtonUITests.m */; };
+		D0BC2A411DB2132900C62A2B /* WZBCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BC2A401DB2132900C62A2B /* WZBCountDownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BC2A1F1DB212E400C62A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BC29FD1DB212E400C62A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BC2A041DB212E400C62A2B;
+			remoteInfo = WZBCountDownButton;
+		};
+		D0BC2A2A1DB212E400C62A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BC29FD1DB212E400C62A2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BC2A041DB212E400C62A2B;
+			remoteInfo = WZBCountDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0BC2A051DB212E400C62A2B /* WZBCountDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZBCountDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BC2A091DB212E400C62A2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0BC2A0B1DB212E400C62A2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0BC2A0C1DB212E400C62A2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0BC2A0E1DB212E400C62A2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0BC2A0F1DB212E400C62A2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0BC2A121DB212E400C62A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BC2A141DB212E400C62A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BC2A171DB212E400C62A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BC2A191DB212E400C62A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BC2A1E1DB212E400C62A2B /* WZBCountDownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZBCountDownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BC2A221DB212E400C62A2B /* WZBCountDownButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZBCountDownButtonTests.m; sourceTree = "<group>"; };
+		D0BC2A241DB212E400C62A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BC2A291DB212E400C62A2B /* WZBCountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZBCountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BC2A2D1DB212E400C62A2B /* WZBCountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZBCountDownButtonUITests.m; sourceTree = "<group>"; };
+		D0BC2A2F1DB212E400C62A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BC2A3F1DB2132900C62A2B /* WZBCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBCountDownButton.h; sourceTree = "<group>"; };
+		D0BC2A401DB2132900C62A2B /* WZBCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BC2A021DB212E400C62A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BC2A1B1DB212E400C62A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BC2A261DB212E400C62A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BC29FC1DB212E400C62A2B = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A071DB212E400C62A2B /* WZBCountDownButton */,
+				D0BC2A211DB212E400C62A2B /* WZBCountDownButtonTests */,
+				D0BC2A2C1DB212E400C62A2B /* WZBCountDownButtonUITests */,
+				D0BC2A061DB212E400C62A2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BC2A061DB212E400C62A2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A051DB212E400C62A2B /* WZBCountDownButton.app */,
+				D0BC2A1E1DB212E400C62A2B /* WZBCountDownButtonTests.xctest */,
+				D0BC2A291DB212E400C62A2B /* WZBCountDownButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BC2A071DB212E400C62A2B /* WZBCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A3B1DB212F700C62A2B /* WZBCountdownLabel */,
+				D0BC2A0B1DB212E400C62A2B /* AppDelegate.h */,
+				D0BC2A0C1DB212E400C62A2B /* AppDelegate.m */,
+				D0BC2A0E1DB212E400C62A2B /* ViewController.h */,
+				D0BC2A0F1DB212E400C62A2B /* ViewController.m */,
+				D0BC2A111DB212E400C62A2B /* Main.storyboard */,
+				D0BC2A141DB212E400C62A2B /* Assets.xcassets */,
+				D0BC2A161DB212E400C62A2B /* LaunchScreen.storyboard */,
+				D0BC2A191DB212E400C62A2B /* Info.plist */,
+				D0BC2A081DB212E400C62A2B /* Supporting Files */,
+			);
+			path = WZBCountDownButton;
+			sourceTree = "<group>";
+		};
+		D0BC2A081DB212E400C62A2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A091DB212E400C62A2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BC2A211DB212E400C62A2B /* WZBCountDownButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A221DB212E400C62A2B /* WZBCountDownButtonTests.m */,
+				D0BC2A241DB212E400C62A2B /* Info.plist */,
+			);
+			path = WZBCountDownButtonTests;
+			sourceTree = "<group>";
+		};
+		D0BC2A2C1DB212E400C62A2B /* WZBCountDownButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A2D1DB212E400C62A2B /* WZBCountDownButtonUITests.m */,
+				D0BC2A2F1DB212E400C62A2B /* Info.plist */,
+			);
+			path = WZBCountDownButtonUITests;
+			sourceTree = "<group>";
+		};
+		D0BC2A3B1DB212F700C62A2B /* WZBCountdownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC2A3F1DB2132900C62A2B /* WZBCountDownButton.h */,
+				D0BC2A401DB2132900C62A2B /* WZBCountDownButton.m */,
+			);
+			path = WZBCountdownLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BC2A041DB212E400C62A2B /* WZBCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BC2A321DB212E400C62A2B /* Build configuration list for PBXNativeTarget "WZBCountDownButton" */;
+			buildPhases = (
+				D0BC2A011DB212E400C62A2B /* Sources */,
+				D0BC2A021DB212E400C62A2B /* Frameworks */,
+				D0BC2A031DB212E400C62A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZBCountDownButton;
+			productName = WZBCountDownButton;
+			productReference = D0BC2A051DB212E400C62A2B /* WZBCountDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BC2A1D1DB212E400C62A2B /* WZBCountDownButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BC2A351DB212E400C62A2B /* Build configuration list for PBXNativeTarget "WZBCountDownButtonTests" */;
+			buildPhases = (
+				D0BC2A1A1DB212E400C62A2B /* Sources */,
+				D0BC2A1B1DB212E400C62A2B /* Frameworks */,
+				D0BC2A1C1DB212E400C62A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BC2A201DB212E400C62A2B /* PBXTargetDependency */,
+			);
+			name = WZBCountDownButtonTests;
+			productName = WZBCountDownButtonTests;
+			productReference = D0BC2A1E1DB212E400C62A2B /* WZBCountDownButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BC2A281DB212E400C62A2B /* WZBCountDownButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BC2A381DB212E400C62A2B /* Build configuration list for PBXNativeTarget "WZBCountDownButtonUITests" */;
+			buildPhases = (
+				D0BC2A251DB212E400C62A2B /* Sources */,
+				D0BC2A261DB212E400C62A2B /* Frameworks */,
+				D0BC2A271DB212E400C62A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BC2A2B1DB212E400C62A2B /* PBXTargetDependency */,
+			);
+			name = WZBCountDownButtonUITests;
+			productName = WZBCountDownButtonUITests;
+			productReference = D0BC2A291DB212E400C62A2B /* WZBCountDownButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BC29FD1DB212E400C62A2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "王振标";
+				TargetAttributes = {
+					D0BC2A041DB212E400C62A2B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HYJW979TJ;
+						ProvisioningStyle = Automatic;
+					};
+					D0BC2A1D1DB212E400C62A2B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HYJW979TJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0BC2A041DB212E400C62A2B;
+					};
+					D0BC2A281DB212E400C62A2B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HYJW979TJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0BC2A041DB212E400C62A2B;
+					};
+				};
+			};
+			buildConfigurationList = D0BC2A001DB212E400C62A2B /* Build configuration list for PBXProject "WZBCountDownButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BC29FC1DB212E400C62A2B;
+			productRefGroup = D0BC2A061DB212E400C62A2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BC2A041DB212E400C62A2B /* WZBCountDownButton */,
+				D0BC2A1D1DB212E400C62A2B /* WZBCountDownButtonTests */,
+				D0BC2A281DB212E400C62A2B /* WZBCountDownButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BC2A031DB212E400C62A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BC2A181DB212E400C62A2B /* LaunchScreen.storyboard in Resources */,
+				D0BC2A151DB212E400C62A2B /* Assets.xcassets in Resources */,
+				D0BC2A131DB212E400C62A2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BC2A1C1DB212E400C62A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BC2A271DB212E400C62A2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BC2A011DB212E400C62A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BC2A101DB212E400C62A2B /* ViewController.m in Sources */,
+				D0BC2A0D1DB212E400C62A2B /* AppDelegate.m in Sources */,
+				D0BC2A0A1DB212E400C62A2B /* main.m in Sources */,
+				D0BC2A411DB2132900C62A2B /* WZBCountDownButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BC2A1A1DB212E400C62A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BC2A231DB212E400C62A2B /* WZBCountDownButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BC2A251DB212E400C62A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BC2A2E1DB212E400C62A2B /* WZBCountDownButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BC2A201DB212E400C62A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BC2A041DB212E400C62A2B /* WZBCountDownButton */;
+			targetProxy = D0BC2A1F1DB212E400C62A2B /* PBXContainerItemProxy */;
+		};
+		D0BC2A2B1DB212E400C62A2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BC2A041DB212E400C62A2B /* WZBCountDownButton */;
+			targetProxy = D0BC2A2A1DB212E400C62A2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BC2A111DB212E400C62A2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BC2A121DB212E400C62A2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BC2A161DB212E400C62A2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BC2A171DB212E400C62A2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BC2A301DB212E400C62A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BC2A311DB212E400C62A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BC2A331DB212E400C62A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HYJW979TJ;
+				INFOPLIST_FILE = WZBCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZB.WZBCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0BC2A341DB212E400C62A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HYJW979TJ;
+				INFOPLIST_FILE = WZBCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZB.WZBCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0BC2A361DB212E400C62A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8HYJW979TJ;
+				INFOPLIST_FILE = WZBCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZB.WZBCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZBCountDownButton.app/WZBCountDownButton";
+			};
+			name = Debug;
+		};
+		D0BC2A371DB212E400C62A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8HYJW979TJ;
+				INFOPLIST_FILE = WZBCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZB.WZBCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZBCountDownButton.app/WZBCountDownButton";
+			};
+			name = Release;
+		};
+		D0BC2A391DB212E400C62A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HYJW979TJ;
+				INFOPLIST_FILE = WZBCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZB.WZBCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZBCountDownButton;
+			};
+			name = Debug;
+		};
+		D0BC2A3A1DB212E400C62A2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HYJW979TJ;
+				INFOPLIST_FILE = WZBCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZB.WZBCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZBCountDownButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BC2A001DB212E400C62A2B /* Build configuration list for PBXProject "WZBCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BC2A301DB212E400C62A2B /* Debug */,
+				D0BC2A311DB212E400C62A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BC2A321DB212E400C62A2B /* Build configuration list for PBXNativeTarget "WZBCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BC2A331DB212E400C62A2B /* Debug */,
+				D0BC2A341DB212E400C62A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0BC2A351DB212E400C62A2B /* Build configuration list for PBXNativeTarget "WZBCountDownButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BC2A361DB212E400C62A2B /* Debug */,
+				D0BC2A371DB212E400C62A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0BC2A381DB212E400C62A2B /* Build configuration list for PBXNativeTarget "WZBCountDownButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BC2A391DB212E400C62A2B /* Debug */,
+				D0BC2A3A1DB212E400C62A2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BC29FD1DB212E400C62A2B /* Project object */;
+}
