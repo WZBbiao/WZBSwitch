@@ -19,6 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    /** 初始化方法
+     *  switchValueChange: 开关状态改变回调block
+     */
     WZBSwitch *switchView = [[WZBSwitch alloc] initWithFrame:CGRectMake(100, 100, 50, 25) switchValueChanged:^(WZBSwitch *swith, BOOL on) {
         // do someing
     }];
@@ -44,7 +47,7 @@
 
 #pragma mark - WZBSwitchDelegate
 - (void)switchValueChange:(WZBSwitch *)swith on:(BOOL)on {
-    NSLog(@"on : %d", on);
+    // do someing
 }
 
 @end
