@@ -65,4 +65,4 @@
  
  您还可以加入我们的群，大家庭期待您的加入！
  
- ![image](https://github.com/WZBbiao/WZBSwitch/blob/master/IMG_1850.JPG?raw=true)
+ ![image](https://raw.githubusercontent.com/WZBbiao/WZBSwitch/master/IMG_1850.JPG)
