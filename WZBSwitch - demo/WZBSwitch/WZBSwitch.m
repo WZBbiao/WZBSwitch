@@ -48,7 +48,7 @@
 }
 
 - (void)setupWithFrame:(CGRect)frame {
-    _on = YES;
+    _on = NO;
     self.userInteractionEnabled = YES;
     [self setupConfigWithFrame:frame];
 }
@@ -71,21 +71,21 @@
     self.topView.center = topViewCenter;
     [self addSubview:_topView];
     self.topView.layer.cornerRadius = self.topView.frame.size.height / 2;
-    [self setOn:NO animated:YES];
     self.onTintColor = self.offTintColor = self.offBackgroundColor = WZBWhiteColor;
     self.onBackgroundColor = WZBGreenColor;
     self.tintColor = WZBLightGrayColor;
+    [self setSwitchColorWithStatus:_on];
 }
 
 - (void)setOn:(BOOL)newOn animated:(BOOL)animated {
-//    if (_on == newOn) return;
+    
     __block CGRect frame = self.topView.frame;
     CGFloat newX = newOn ? self.frame.size.width - self.topView.frame.size.width : 0;
     [UIView animateWithDuration:animated ? 0.2 : 0.0 animations:^{
         frame.origin.x = newX;
         self.topView.frame = frame;
         [self setSwitchColorWithStatus:newOn];
-    }                completion:^(BOOL finished) {
+    } completion:^(BOOL finished) {
         if (finished) {
             // delegate
             if ([self.delegate respondsToSelector:@selector(switchValueChange:on:)]) {
@@ -101,7 +101,7 @@
 }
 
 - (void)setUpAllColors:(NSDictionary *(^)(UIColor **onTintColor,UIColor **onBackgroundColor, UIColor **offTintColor, UIColor **offBackgroundColor, UIColor **tintColor))allColorBlock {
-    [self setUpAllColors:allColorBlock switchValueChanged:nil];
+    [self setUpAllColors:allColorBlock switchValueChanged:self.switchValueChange];
 }
 
 - (void)setUpAllColors:(NSDictionary *(^)(UIColor **onTintColor,UIColor **onBackgroundColor, UIColor **offTintColor, UIColor **offBackgroundColor, UIColor **tintColor))allColorBlock switchValueChanged:(SwitchValueChangeBlock)switchValueChange {
@@ -139,6 +139,7 @@
             }
         }
     }
+    [self setSwitchColorWithStatus:_on];
 }
 
 - (void)setUpSafeColor:(UIColor *)writeColor writedColor:(UIColor *)writedColor {
@@ -159,25 +160,25 @@
 // 开关开启状态的顶部滑块颜色 默认是灰色
 - (void)setOnTintColor:(UIColor *)onTintColor {
     _onTintColor = onTintColor;
-    [self setOn:_on animated:YES];
+    [self setSwitchColorWithStatus:_on];
 }
 
 // 开关开启状态的底部背景颜色 默认是浅灰色
 - (void)setOnBackgroundColor:(UIColor *)onBackgroundColor {
     _onBackgroundColor = onBackgroundColor;
-    [self setOn:_on animated:YES];
+    [self setSwitchColorWithStatus:_on];
 }
 
 // 开关关闭状态的顶部滑块颜色 默认是灰色
 - (void)setOffTintColor:(UIColor *)offTintColor {
     _offTintColor = offTintColor;
-    [self setOn:_on animated:YES];
+    [self setSwitchColorWithStatus:_on];
 }
 
 // 开关关闭状态的底部背景颜色 默认是浅灰色
 - (void)setOffBackgroundColor:(UIColor *)offBackgroundColor {
     _offBackgroundColor = offBackgroundColor;
-    [self setOn:_on animated:YES];
+    [self setSwitchColorWithStatus:_on];
 }
 
 // 开关的风格颜色 边框颜色 默认是无色
@@ -185,7 +186,7 @@
     _tintColor = tintColor;
     self.topView.layer.borderColor = self.bottomView.layer.borderColor = tintColor.CGColor;
     self.topView.layer.borderWidth = self.bottomView.layer.borderWidth = 0.5f;
-    [self setOn:_on animated:YES];
+    [self setSwitchColorWithStatus:_on];
 }
 
 @end

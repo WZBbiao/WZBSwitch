@@ -40,23 +40,19 @@ typedef void(^SwitchValueChangeBlock)(WZBSwitch *swith, BOOL on);
 @property(nonatomic, strong) UIColor *tintColor;
 /** 查看开关打开状态, 默认为关闭 */
 @property (nonatomic, readonly, getter=isOn) BOOL on;
-
-- (instancetype)initWithFrame:(CGRect)frame switchValueChanged:(SwitchValueChangeBlock)switchValueChange;
-
-/** 一个方法设置所有颜色 */
-- (void)setUpAllColors:(NSDictionary *(^)(UIColor **onTintColor,UIColor **onBackgroundColor, UIColor **offTintColor, UIColor **offBackgroundColor, UIColor **tintColor))allColorBlock;
-
-/** 一个方法设置所有颜色 && block回调
- *  switchValueChange: 开关状态改变回调block
- */
-- (void)setUpAllColors:(NSDictionary *(^)(UIColor **onTintColor,UIColor **onBackgroundColor, UIColor **offTintColor, UIColor **offBackgroundColor, UIColor **tintColor))allColorBlock switchValueChanged:(SwitchValueChangeBlock)switchValueChange;
-
-/** 设置开关状态, animated : 是否有动画 */
-- (void)setOn:(BOOL)newOn animated:(BOOL)animated;
-
 /** 开关状态改变回调block */
 @property (nonatomic, copy) SwitchValueChangeBlock switchValueChange;
 /** delegate */
 @property (nonatomic, weak) id <WZBSwitchDelegate> delegate;
+
+- (instancetype)initWithFrame:(CGRect)frame switchValueChanged:(SwitchValueChangeBlock)switchValueChange;
+/** 一个方法设置所有颜色 */
+- (void)setUpAllColors:(NSDictionary *(^)(UIColor **onTintColor,UIColor **onBackgroundColor, UIColor **offTintColor, UIColor **offBackgroundColor, UIColor **tintColor))allColorBlock;
+/** 一个方法设置所有颜色 && block回调
+ *  switchValueChange: 开关状态改变回调block
+ */
+- (void)setUpAllColors:(NSDictionary *(^)(UIColor **onTintColor,UIColor **onBackgroundColor, UIColor **offTintColor, UIColor **offBackgroundColor, UIColor **tintColor))allColorBlock switchValueChanged:(SwitchValueChangeBlock)switchValueChange;
+/** 设置开关状态, animated : 是否有动画 */
+- (void)setOn:(BOOL)newOn animated:(BOOL)animated;
 
 @end

@@ -24,6 +24,7 @@
      */
     WZBSwitch *switchView = [[WZBSwitch alloc] initWithFrame:CGRectMake(100, 100, 50, 25) switchValueChanged:^(WZBSwitch *swith, BOOL on) {
         // do someing
+        NSLog(@"on----%d", on);
     }];
     [self.view addSubview:switchView];
     // delegate
